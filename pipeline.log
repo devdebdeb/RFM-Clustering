@@ -1,0 +1,72 @@
+2026-01-27 17:24:30,134 - RFM_Orchestrator - INFO - --- STARTING PRODUCTION PIPELINE ---
+2026-01-27 17:24:30,135 - RFM_Orchestrator - INFO - STEP 1: Ingesting and Engineering Features...
+2026-01-27 17:24:30,136 - src.data_loader - INFO - Initiating data ingestion from: C:\Users\andre.messina\Desktop\RFM\data\raw\base_rfm.csv
+2026-01-27 17:24:30,524 - src.data_loader - INFO - Schema validation passed. Shape: (465243, 5)
+2026-01-27 17:24:33,086 - src.features - INFO - Processed data persisted successfully at C:\Users\andre.messina\Desktop\RFM\data\processed\processed_data.csv
+2026-01-27 17:24:33,086 - RFM_Orchestrator - INFO - STEP 2: Tagging Customers using Model K=5...
+2026-01-27 17:24:33,087 - src.data_loader - INFO - Initiating data ingestion from: C:\Users\andre.messina\Desktop\RFM\data\raw\base_rfm.csv
+2026-01-27 17:24:33,514 - src.data_loader - INFO - Schema validation passed. Shape: (465243, 5)
+2026-01-27 17:24:34,642 - RFM_Orchestrator - INFO - STEP 3: Generating Final Segment Report...
+2026-01-27 17:24:34,662 - src.finalize_segments - INFO - 
+--- Final Segment Count ---
+2026-01-27 17:24:34,725 - src.finalize_segments - INFO - Segment
+Hibernating    123667
+At Risk        112972
+Champions       89889
+Loyalists       71353
+Lost New        67362
+Name: count, dtype: int64
+2026-01-27 17:24:34,727 - src.finalize_segments - INFO - ------------------------------
+
+2026-01-27 17:24:36,841 - src.finalize_segments - INFO - Final tagged database saved sucessfully at:
+C:\Users\andre.messina\Desktop\RFM\data\processed\segmented_base.csv
+2026-01-27 17:24:36,842 - RFM_Orchestrator - INFO - --- PIPELINE SUCCESS ---
+2026-01-27 17:24:36,842 - RFM_Orchestrator - INFO - Deliverable available at: C:\Users\andre.messina\Desktop\RFM\data\processed\segmented_base.csv
+2026-01-28 14:50:26,504 - RFM_Orchestrator - INFO - --- STARTING PRODUCTION PIPELINE ---
+2026-01-28 14:50:26,506 - RFM_Orchestrator - INFO - STEP 1: Ingesting and Engineering Features...
+2026-01-28 14:50:26,506 - src.data_loader - INFO - Initiating data ingestion from: C:\Users\andre.messina\Desktop\RFM\data\raw\base_rfm.csv
+2026-01-28 14:50:27,469 - src.data_loader - INFO - Schema validation passed. Shape: (465243, 5)
+2026-01-28 14:50:32,365 - src.features - INFO - Processed data persisted successfully at C:\Users\andre.messina\Desktop\RFM\data\processed\processed_data.csv
+2026-01-28 14:50:32,366 - RFM_Orchestrator - INFO - STEP 2: Tagging Customers using Model K=5...
+2026-01-28 14:50:32,371 - src.data_loader - INFO - Initiating data ingestion from: C:\Users\andre.messina\Desktop\RFM\data\raw\base_rfm.csv
+2026-01-28 14:50:33,448 - src.data_loader - INFO - Schema validation passed. Shape: (465243, 5)
+2026-01-28 14:50:35,720 - RFM_Orchestrator - INFO - STEP 3: Generating Final Segment Report...
+2026-01-28 14:50:35,745 - src.finalize_segments - INFO - 
+--- Final Segment Count ---
+2026-01-28 14:50:35,852 - src.finalize_segments - INFO - Segment
+Hibernating    123667
+At Risk        112972
+Champions       89889
+Loyalists       71353
+Lost New        67362
+Name: count, dtype: int64
+2026-01-28 14:50:35,857 - src.finalize_segments - INFO - ------------------------------
+
+2026-01-28 14:50:44,149 - src.finalize_segments - INFO - Final tagged database saved sucessfully at:
+C:\Users\andre.messina\Desktop\RFM\data\processed\segmented_base.csv
+2026-01-28 14:50:44,151 - RFM_Orchestrator - INFO - --- PIPELINE SUCCESS ---
+2026-01-28 14:50:44,151 - RFM_Orchestrator - INFO - Deliverable available at: C:\Users\andre.messina\Desktop\RFM\data\processed\segmented_base.csv
+2026-01-28 16:50:16,707 - RFM_Orchestrator - INFO - --- STARTING PRODUCTION PIPELINE ---
+2026-01-28 16:50:16,719 - RFM_Orchestrator - INFO - STEP 1: Ingesting and Engineering Features...
+2026-01-28 16:50:16,728 - src.data_loader - INFO - Initiating data ingestion from: C:\Users\andre.messina\Desktop\RFM\data\raw\base_rfm.csv
+2026-01-28 16:50:18,389 - src.data_loader - INFO - Schema validation passed. Shape: (465243, 5)
+2026-01-28 16:50:30,131 - src.features - INFO - Processed data persisted successfully at C:\Users\andre.messina\Desktop\RFM\data\processed\processed_data.csv
+2026-01-28 16:50:30,133 - RFM_Orchestrator - INFO - STEP 2: Tagging Customers using Model K=5...
+2026-01-28 16:50:30,134 - src.data_loader - INFO - Initiating data ingestion from: C:\Users\andre.messina\Desktop\RFM\data\raw\base_rfm.csv
+2026-01-28 16:50:31,661 - src.data_loader - INFO - Schema validation passed. Shape: (465243, 5)
+2026-01-28 16:50:33,572 - RFM_Orchestrator - INFO - STEP 3: Generating Final Segment Report...
+2026-01-28 16:50:33,615 - src.finalize_segments - INFO - 
+--- Final Segment Count ---
+2026-01-28 16:50:33,841 - src.finalize_segments - INFO - Segment
+Hibernating    123667
+At Risk        112972
+Champions       89889
+Loyalists       71353
+Lost New        67362
+Name: count, dtype: int64
+2026-01-28 16:50:33,872 - src.finalize_segments - INFO - ------------------------------
+
+2026-01-28 16:50:48,558 - src.finalize_segments - INFO - Final tagged database saved sucessfully at:
+C:\Users\andre.messina\Desktop\RFM\data\processed\segmented_base.csv
+2026-01-28 16:50:48,559 - RFM_Orchestrator - INFO - --- PIPELINE SUCCESS ---
+2026-01-28 16:50:48,560 - RFM_Orchestrator - INFO - Deliverable available at: C:\Users\andre.messina\Desktop\RFM\data\processed\segmented_base.csv

@@ -1,0 +1,16 @@
+# Ignorar arquivos de dados reais
+*.csv
+*.xlsx
+*.parquet
+data/
+
+# Ignorar credenciais e variáveis de ambiente
+.env
+config.py
+
+# Ignorar pastas do sistema e ambientes virtuais
+__pycache__/
+.ipynb_checkpoints/
+venv/
+env/
+RFM.zip
